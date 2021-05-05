@@ -1,0 +1,8 @@
+---
+apiVersion: hive.openshift.io/v1
+kind: ClusterDeployment
+metadata:
+  name: mngdtmm02
+  namespace: mngdtmm02
+spec:
+  powerState: Hibernating
